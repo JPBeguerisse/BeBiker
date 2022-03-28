@@ -46,7 +46,7 @@ header nav{
 
 header nav a{
 	color: var(--color-grey-light);
-	text-decoration: none; /*enlever les soulignement*/
+	text-decoration: none; 
     font-family: 'Pathway Gothic One', sans-serif;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -141,6 +141,16 @@ header nav ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    border: solid 0px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-left: 109.72px;
+    padding-bottom: 20px;
+    padding-right:108.55px;
+    text-align:center; 
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .button-accueil{
@@ -156,6 +166,17 @@ header nav ul{
     font-size: 15px;
     cursor: pointer;
 }
+
+.button-A-propos a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.button-accueil a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+
 
 .button-white{
       color: var(--color-black);
@@ -179,13 +200,13 @@ header nav ul{
 .rectangle-4{
     padding: 20px;
     background-image: url(../images/img2.jfif);
-    background-size: 3000px; /*a regler*/
+    background-size: 3000px; 
     background-repeat: no-repeat;
     color: var(--color-white);
 }
 .rectangle-4 h4{
     /*border-top: 2px solid;*/
-    margin: 0; /* supprime les marges sur le h4, ces les marges des h qui crée une marge entre les section*/
+    margin: 0; 
     padding-top: 20px;
     font-weight: normal;
 }
@@ -259,7 +280,7 @@ header nav ul{
 
 
 
-/*afficher l'image du section à partir des écran tablette*/
+
 @media screen and (max-width: 768px){
     .atelier img{
         display: none;
@@ -322,10 +343,10 @@ header nav ul{
         }
 
         .illustration ul img{
-            /*display: none; cacher un element*/
-            width: 100%; /*l'image prend toute la largeur*/
+            
+            width: 100%; 
             height: 499px;
-            object-fit: cover; /*afficher un partie de l'image*/
+            object-fit: cover; 
             
         }
 
@@ -339,19 +360,18 @@ header nav ul{
 
     /* section atelier*/
     .atelier .rectangle-1{
-        display: flex; /*l'image et le texte sur la meme ligne*/
+        display: flex; 
         padding: 0px;
         padding-left: 24px;
         justify-content: space-between;
-        height: 288px; /*supprime l'espace en bas des photos*/
+        height: 288px; 
     }
 
     .atelier .rectangle-2{
-        display: flex; /*l'image et le texte sur la meme ligne*/
+        display: flex; 
         padding: 0px;
         padding-right: 24px;
-        height: 312px; /*supprime l'espace en bas des photos*/
-    
+        height: 312px; 
     }
 
     .atelier .rectangle-2 .paragraphe{
@@ -486,16 +506,16 @@ header nav ul{
     /* section atelier*/
     
     .atelier .rectangle-1{
-        display: flex; /*l'image et le texte sur la meme ligne*/
+        display: flex; 
         margin-left: 91px;
         margin-right: 91px;
         margin-bottom: 14px;
-        justify-content: space-between; /*Epace entre l'image et le texte*/
+        justify-content: space-between; 
         height: 274px;
     }
 
     .atelier .rectangle-2{
-        display: flex; /*l'image et le texte sur la meme ligne*/
+        display: flex; 
         margin-left: 91px;
         margin-right: 91px;
         height: 290px;
